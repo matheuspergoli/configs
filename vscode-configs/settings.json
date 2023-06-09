@@ -25,9 +25,6 @@
 	"prettier.trailingComma": "none",
 	"eslint.ignoreUntitled": true,
 
-	// Explorer
-	"explorer.openEditors.visible": 0,
-
 	// Editor
 	"editor.tabSize": 2,
 	"editor.wordWrapColumn": 160,
@@ -101,6 +98,7 @@
 
 	// Explorer
 	"explorer.compactFolders": false,
+	"explorer.openEditors.visible": 0,
 
 	// Auto Close Tag
 	"auto-close-tag.activationOnLanguage": [
