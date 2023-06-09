@@ -1,0 +1,220 @@
+{
+	// Formatação de JavaScript e TypeScript
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove",
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.preferences.quoteStyle": "single",
+
+	// Formatação geral
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.tabWidth": 2,
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"prettier.endOfLine": "lf",
+	"prettier.printWidth": 90,
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.bracketSpacing": true,
+	"prettier.bracketSameLine": true,
+	"prettier.trailingComma": "none",
+	"eslint.ignoreUntitled": true,
+
+	// Explorer
+	"explorer.openEditors.visible": 0,
+
+	// Editor
+	"editor.tabSize": 2,
+	"editor.wordWrapColumn": 160,
+	"editor.rulers": [160],
+	"editor.codeLens": true,
+	"editor.accessibilitySupport": "off",
+	"editor.linkedEditing": true,
+	"editor.lineHeight": 20,
+	"editor.renderLineHighlight": "all",
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.matchBrackets": "always",
+	"editor.smoothScrolling": true,
+	"editor.inlineSuggest.enabled": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.fontWeight": "700",
+	"editor.cursorWidth": 2,
+	"editor.fontLigatures": true,
+	"editor.fontFamily": "JetBrainsMono Nerd Font",
+	"editor.fontSize": 14,
+	"editor.autoClosingBrackets": "always",
+	"editor.cursorBlinking": "smooth",
+	"editor.minimap.enabled": false,
+	"editor.snippetSuggestions": "bottom",
+	"editor.suggestSelection": "first",
+	"editor.suggestFontSize": 16,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.organizeImports": true
+	},
+
+	// Terminal
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.scrollback": 1000,
+	"terminal.integrated.cursorWidth": 2,
+	"terminal.integrated.letterSpacing": 1,
+	"terminal.integrated.fontWeight": "bold",
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.showExitAlert": false,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.gpuAcceleration": "on",
+	"terminal.integrated.tabs.enableAnimation": true,
+	"terminal.integrated.shellIntegration.history": 0,
+	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+	"terminal.integrated.persistentSessionScrollback": 100,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.commandsToSkipShell": ["clear", "cls", "history -c"],
+
+	// Live Server
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.CustomBrowser": "chrome",
+
+	// Diff Editor
+	"diffEditor.ignoreTrimWhitespace": false,
+	"diffEditor.wordWrap": "on",
+
+	// Emmet
+	"emmet.syntaxProfiles": {
+		"javascript": "jsx"
+	},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
+	},
+
+	// Tailwind CSS
+	"tailwindCSS.emmetCompletions": true,
+	"tailwindCSS.experimental.classRegex": [
+		["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+	],
+
+	// Explorer
+	"explorer.compactFolders": false,
+
+	// Auto Close Tag
+	"auto-close-tag.activationOnLanguage": [
+		"xml",
+		"php",
+		"blade",
+		"ejs",
+		"jinja",
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"plaintext",
+		"markdown",
+		"vue",
+		"liquid",
+		"erb",
+		"lang-cfml",
+		"cfml",
+		"HTML (EEx)",
+		"HTML (Eex)",
+		"plist"
+	],
+
+	// CSS
+	"css.enabledLanguages": ["typescriptreact", "react", "html"],
+	"css.lint.unknownAtRules": "ignore",
+
+	// Path Intellisense
+	"path-intellisense.autoTriggerNextSuggestion": true,
+
+	// NPM IntelliSense
+	"npm-intellisense.importLinebreak": "",
+	"npm-intellisense.scanDevDependencies": true,
+	"npm-intellisense.packageSubfoldersIntellisense": true,
+
+	// Code Runner
+	"code-runner.saveFileBeforeRun": true,
+	"code-runner.saveAllFilesBeforeRun": true,
+	"code-runner.clearPreviousOutput": true,
+
+	// Update Imports on File Move
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+
+	// Editor Guides
+	"editor.guides.bracketPairs": true,
+	"editor.guides.bracketPairsHorizontal": true,
+
+	// Workbench
+	"workbench.colorCustomizations": {},
+	"workbench.colorTheme": "Darker than One Dark Pro (Contrast)",
+	"workbench.preferredDarkColorTheme": "Darker than One Dark Pro",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.labelFormat": "default",
+	"workbench.startupEditor": "none",
+	"workbench.list.smoothScrolling": true,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"breadcrumbs.enabled": false,
+
+	// GitHub Copilot
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": true,
+		"markdown": true,
+		"scminput": false,
+		"yaml": true,
+		"javascript": true,
+		"typescript": true,
+		"javascriptreact": true,
+		"typescriptreact": true,
+		"css": true,
+		"html": true,
+		"tailwindcss": true
+	},
+
+	// HTML
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// Prisma
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+
+	// JSONC
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// Inlay Hints
+	"javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+	"javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+	"typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+	"typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+
+	// Git
+	"git.openRepositoryInParentFolders": "always",
+
+	// Auto-Save
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 500,
+
+	// TypeScript Server
+	"typescript.tsserver.maxTsServerMemory": 8072,
+
+	// Material Icon Theme
+	"material-icon-theme.files.associations": {},
+
+	// Editor Quick Suggestions
+	"editor.quickSuggestions": {
+		"comments": "on",
+		"strings": "on"
+	}
+}
