@@ -96,9 +96,14 @@
 		["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
 	],
 
+	// Window
+	"window.restoreWindows": "none",
+
 	// Explorer
 	"explorer.compactFolders": false,
-	"explorer.openEditors.visible": 0,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.openEditors.visible": 1,
 
 	// Auto Close Tag
 	"auto-close-tag.activationOnLanguage": [
