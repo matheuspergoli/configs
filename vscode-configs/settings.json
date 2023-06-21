@@ -28,7 +28,7 @@
 	// Editor
 	"editor.tabSize": 2,
 	"editor.wordWrapColumn": 160,
-	"editor.rulers": [160],
+	"editor.rulers": [], // 160
 	"editor.codeLens": true,
 	"editor.accessibilitySupport": "off",
 	"editor.linkedEditing": true,
@@ -83,7 +83,8 @@
 
 	// Emmet
 	"emmet.syntaxProfiles": {
-		"javascript": "jsx"
+		"javascript": "jsx",
+		"vue": "html"
 	},
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact",
@@ -157,7 +158,7 @@
 
 	// Workbench
 	"workbench.colorCustomizations": {},
-	"workbench.colorTheme": "Darker than One Dark Pro (Contrast)",
+	"workbench.colorTheme": "Darker than One Dark Pro",
 	"workbench.preferredDarkColorTheme": "Darker than One Dark Pro",
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.editor.enablePreview": false,
@@ -214,24 +215,24 @@
 	// TypeScript Server
 	"typescript.tsserver.maxTsServerMemory": 8072,
 
-	// Material Icon Theme
-	"material-icon-theme.files.associations": {},
-
 	// Editor Quick Suggestions
 	"editor.quickSuggestions": {
 		"comments": "on",
 		"strings": "on"
 	},
 
+	"window.title": " ", // ${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}
+	"window.menuBarVisibility": "toggle", // alt key to show
+	"workbench.editor.showTabs": true, // removes tabs
 	"workbench.layoutControl.enabled": false, // removes the layout control button (the one that looks like a grid)
 	"workbench.tree.renderIndentGuides": "none", // removes indent guides
 	"editor.renderWhitespace": "none", // removes whitespace chars
 	"editor.overviewRulerBorder": false, // removes border from overview ruler (located on the right, same position as the scrollbar)
 	"editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
-	"editor.folding": false, // removes the folding feature
+	"editor.folding": true, // removes the folding feature
 	"editor.occurrencesHighlight": false, // removes highlights occurrences (still works when you select a word)
 	"editor.glyphMargin": false, // removes the space used mainly for debugging indicators
-	"workbench.activityBar.visible": true, // removes the activity bar (the 4 icons at the left of the screen)
+	"workbench.activityBar.visible": false, // removes the activity bar (the 4 icons at the left of the screen)
 	"workbench.editor.showIcons": true, // removes icon from opened files in tabs
 	"workbench.editor.tabCloseButton": "right", // removes cross icon from tabs
 	"workbench.statusBar.visible": true, // removes the status bar (the bar at the bottom of the screen)
